@@ -1,6 +1,32 @@
+html, body {
+	padding: 0;
+	margin:0;
+}
 body {
 	font-size: 16px;
-	color: #fff;
-	background-color: #61122f;
+	color: #325050;
+	background-color: #fff;
 	font-family: 'Oxygen', sans-serif;
+	font-size: 70%;
+}
+
+a {
+	color: #0d8bal;
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+	text-decoration: none;
+}
+	a:visited {
+		color: #la5952;
+	}
+	a:hover, a:focus {
+		color: #0599c2;
+		text-decoration: underline;
+	}
+abbr {
+	border: none;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	letter-spacing: 0.01em;
 }
