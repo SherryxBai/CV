@@ -1,0 +1,175 @@
+/** define colors:
+greenish
+honey dew  #f0fff0; 
+zen green  #8DC1A3;
+
+
+      **/
+
+* {
+	box-sizing: border-box;
+}
+
+header{
+	height: 400px;
+	width: 100%;
+	background-image: url('../images/rose.jpg');
+}
+
+body {
+	display: block;
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	color: gray;
+	font-family: 'Libre Baskerville', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	position: relative;
+	top: 50px;
+}
+
+p {
+	margin-top: 20px;
+	padding-bottom: 4em;
+	text-align: left;
+	font-size: 1em;
+}
+
+/** header **/
+.round-border {
+	border-width: 15px;
+	border-style: solid;
+	border-color: red;
+}
+
+#header-nav {
+	background-color: #f0fff0;
+	border-radius: 0;
+	border: 0;
+}
+
+#avatar {
+	position: relative;
+	top: 150px;
+	background: url('../images/watercolor-sakura-branch.jpg');
+	width: 180px;
+	height: 180px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-color: pink;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+/** left sidebar **/
+.specialty, .edu {
+	width: 100%;
+	padding-top: 4em;
+	padding-right: 38%;
+	padding-left: 10%;
+	margin: 0;
+}
+.projects {
+	width: 100%;
+	padding-top: 4em;
+	padding-right: 38%;
+	padding-left: 10%;
+	margin: 0;
+}
+
+/** right sidebar **/
+.rightbar {
+	position: absolute;
+	top: 400px;
+	right: 0;
+	width: 33.3%;
+	height: 100%;
+	background: transparent;
+}
+#right-specialty {
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	padding: 100px 80px;
+}
+#right-projects {
+	position: absolute;
+	top: 330px;
+	right: 10px;
+	padding: 100px 80px;
+}
+#right-edu {
+	position: absolute;
+	top: 550px;
+	right: 10px;
+	padding: 100px 80px;
+}
+#right-contact {
+	position: absolute;
+	top: 750px;
+	right: 10px;
+	padding: 100px 80px;
+}
+
+/** cutoff **/
+/**.container {
+	background-attachment: fixed;
+	background-color: rgba(138,188,159,0.5);
+	background-image: url('../images/watercolor-sakura-branch.jpg');
+	background-repeat: no-repeat;
+	background-size: auto, auto, cover;
+} **/
+div.section-specialty {
+	padding: 3em 0;
+	margin-top: 3em;
+}
+div.section-projects {
+
+}
+
+/** project tiles **/
+#project1, #project2, #project3, #project4 {
+	display: inline-block;
+	height: 100px;
+	width: 150px;
+	margin-bottom: 15px;
+	position: relative;
+
+	border: 2px solid #3F0C1F;
+	overflow: hidden;
+}
+
+#project1:hover, #project2:hover, #project3:hover, #project4:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+} 
+
+/** footer & icons **/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+	background-color: white;
+	border-top: 0;
+	font-family: 'sans-serif';
+}
+.icon {
+	display: inline-block;
+	color: green;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+
+	position: relative;
+	overflow: hidden;
+	width: 80px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+
