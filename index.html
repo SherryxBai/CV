@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" name="viewport" content="width=100%, initial-scale=1">
-		<title>简历</title>
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
+		<title>Xueyan Bai's CV</title>
+		<!-- css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<!-- icons -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">	
 	</head>
 
-	<body>
-		<div class="side-navbar">
-			<a href="#hbulletPoint1">point</a>
-			<a href="#bulletPoint2">point</a>
-			<a href="#bulletPoint3">point</a>
-			<a href="#bulletPoint4">point</a>
-			<a href="#bulletPoint5">point</a>
-		</div>
-			<div class="content-area">
-			<div class="wrapper">
-			
+<body id="main-body">
+	<header>
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="#avatar">主页</a></li>
+					<li class="nav-item"><a class="nav-link" href="#right-specialty">技能</a></li>
+					<li class="nav-item"><a class="nav-link" href="#right-projects">项目</a></li>
+					<li class="nav-item"><a class="nav-link" href="#right-edu">教育</a></li>
+					<li class="nav-item"><a class="nav-link" href="#right-contact">联系</a></li>
 			</div>
-			</div>
+		</nav>	
+<!-- intro -->
+	<div class="main-intro">
+		<div class="profile-pic">
+			<a href="index.html">
+				<div id="avatar" alt="avatar image"></div>
+			</a>
+		</div>	
+		<h1>白雪妍</h1>
+		<h5>陌上花开，可码代码矣。</h5> <!-- Time to code when flowers bloom. -->
+		<h4>前端开发工程师</h4> 						
+		<h4>sherrybaibai@163.com</h4>
+	</div> 
+	</header>
 
-		<div class="container" id="firstPage">
-			<h1 id="name">白雪妍</title>
-			<h2 id="occupation">前端开发工程师</h1>
-			<h3 id="mail">sherrybaibai@163.com</h2>
+
+
+<!-- leftbar -->
+	<div class="main-leftbar">
+	<div class="specialty" id="left-specialty"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+
+	<div class="projects" id="left-projects">
+		<div class="row" id="project-tiles">
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="*"><div id="project1"><span>Project1</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="*"><div id="project2"><span>Project2</span></div></a>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<a href="*"><div id="project3"><span>Project3</span></div></a>
+			</div>
 		</div>
+	</div>
+
+	<div class="edu" id="left-edu">
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+	<div class="contact" id="left-contact">
+		<footer>
+				<a href="*" class="icon" title="下载我的简历" id="click-resume">
+				<i class="fas fa-cloud-download-alt"></i>
+				</a>
+				<a href="*" class="icon" title="Github" id="click-github">
+				<i class="fab fa-github"></i>
+				</a>
+				<a href="*" class="icon" title="Email me" id="click-email">
+				<i class="far fa-envelope"></i>
+				</a>
+				<a href="*" class="icon" title="FreeCodeCamp" id="click-fcc">
+				<i class="fab fa-free-code-camp"></i>
+				</a>
+				<a href="*" class="icon" title="LinkedIn" id="click-linkedin">
+				<i class="fab fa-linkedin"></i>
+				</a>
+				<a href="*" class="icon" title="Blog" id="click-blog">
+				<i class="fab fa-wordpress"></i>
+				</a>
+		</footer>
+	</div>			
+	</div> <!-- END leftbar -->
+
+<!-- sidebar -->
+	<aside class="sidebar" role="complementary">
+		<div class="rightbar">
+			<div class="side-specialty" id="right-specialty">
+				<h2>我擅长</h2>
+			</div>
+			<div class="side-projects" id="right-projects"><h2>我的项目</h2>
+			</div>	
+			<div class="side-edu" id="right-edu"><h2>我毕业于</h2>
+			</div>	
+			<div class="side-contact" id="right-contact"><h2>联系我</h2>
+			</div>	
+		</div>
+	</aside>
 	
-		<div class="container" id="secondPage">
-		<h1 class="subtitle" id="subtitle1">我擅长</h1>
-		<div class="fluid container" id="fluidTags">LOPSUM</div>
-		</div>
-		
-		<div class="container" id="thirdPage">
-		<h1 class="subtitle" id="subtitle2">我最近完成了</h1>
-		<<div class="container" id="projects">LOPSUM</div>
-		</div>
-
-		<div class="container" id="forthPage">
-		<h1 class="subtitle" id="subtitle3">我毕业于</h1>
-		<h3>圣路易斯华盛顿大学</h3>
-		<h1 class="subtitle" id="subtitle4">在美国修读</h1>
-		<h3>理学学士</h3>
-		</div>
-
-		<div class="container" id="fifthPage">
-		<h1 class="subtitle" id="subtitle5">更多...</h1>
-		<div class="fluid container" id="fluidTags">LOPSUM</div>
-		<footer>点击这里下载我的简历</footer>
-		</div>
-	</body>
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
 </html>
+
